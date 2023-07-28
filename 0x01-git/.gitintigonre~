@@ -1,5 +1,0 @@
-# Never push to the `main` branch.
-if [ "$BRANCH_NAME" == "main" ]; then
-  echo "This is the `main` branch. Do not push."
-  exit 1
-
